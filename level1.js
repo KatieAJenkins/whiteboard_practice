@@ -104,10 +104,11 @@ largest('cat' , 3);
 
 function count(number) {
   if(isNaN(number) !== 'number'){
-    console.log('Argument must be a number');
+    // console.log('Argument must be a number');
+    return 'Argument must be a number';
   }
   for(var i = 1; i <= number; i++){
-    console.log(i);
+    // console.log(i);
   }
 };
 
@@ -115,16 +116,26 @@ count(10);
 count(20);
 count('Cuddlefish');
 
-//5. Write a function that takes 2 arguments and returns the bigger of the two
+//5. Print the numbers from 10 to 1 using a `while` loop
 
-//INPUTS:
-//OUTPUTS:
+//INPUTS: number
+//OUTPUTS: numbers
 
-//EXAMPLE INPUTS & OUTPUTS w/EDGE CASES
-//
-//
-//
+//EXAMPLE INPUTS & OUTPUTS w/EDGE CASES:
+//(10) => 10 9 8 7 6 5 4 3 2 1
+//(20) => 20 - 1
+//('Pandas') => 'Argument must be a number'
 
 //2 METHODS TO SOLVE:
-//1.
+//1. While loop, as specified
 //2.
+
+function countDown(number){
+  var count = ;
+  while(i < number) {
+    i--;
+    console.log(i);
+  }
+}
+
+countDown(10);
