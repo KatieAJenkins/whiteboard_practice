@@ -17,7 +17,7 @@ function sum (num1, num2, num3){
   }
   //return sum of all 3 arguments
   var sum = num1 + num2 + num3;
-  console.log(sum);
+  // console.log(sum);
   return sum;
 }
 
@@ -25,3 +25,26 @@ function sum (num1, num2, num3){
 sum(1, 2 , 3);
 sum(1, 'Gelato', 3);
 sum('1', '2', 3);
+
+
+//2. Write a function that takes a string and returns the uppercase version of that string with an “!
+
+//INPUTS: string
+//OUTPUTS: string
+
+//EXAMPLE INPUTS & OUTPUTS w/EDGE CASES
+// 'hello' => 'HELLO!'
+// 4 => 'Must enter a string'
+
+function toUpperString(string){
+  if(typeof(string) !== 'string'){
+    // console.log('Must enter a string');
+    return 'Must enter a string';
+  }
+  var upperCaseString = string.toUpperCase();
+  // console.log(upperCaseString + '!');
+  return upperCaseString + '!';
+};
+
+toUpperString('hello');
+toUpperString(4);
