@@ -87,3 +87,44 @@ function largest(num1, num2){
 largest(3,7);
 largest(10,3);
 largest('cat' , 3);
+
+//4. Write a function that takes 2 arguments and returns the bigger of the two
+
+//INPUTS: number
+//OUTPUTS: numbers
+
+//EXAMPLE INPUTS & OUTPUTS w/EDGE CASES
+//(10) => 1 2 3 4 5 6 7 8 9 10
+//(20) => 1 - 20
+//('Cuddlefish') => "Argument must be a number"
+
+//2 METHODS TO SOLVE:
+//1. for loop as specified
+//2.
+
+function count(number) {
+  if(isNaN(number) !== 'number'){
+    console.log('Argument must be a number');
+  }
+  for(var i = 1; i <= number; i++){
+    console.log(i);
+  }
+};
+
+count(10);
+count(20);
+count('Cuddlefish');
+
+//5. Write a function that takes 2 arguments and returns the bigger of the two
+
+//INPUTS:
+//OUTPUTS:
+
+//EXAMPLE INPUTS & OUTPUTS w/EDGE CASES
+//
+//
+//
+
+//2 METHODS TO SOLVE:
+//1.
+//2.
