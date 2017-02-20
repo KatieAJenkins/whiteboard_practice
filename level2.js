@@ -22,8 +22,18 @@ function sumArray(array){
     }
     sum += array[i];
   }
-  console.log(sum);
+  // console.log(sum);
+  return sum;
 }
+
+//reduce method
+[1,2,3].reduce(function(initialValue, currentValue){
+  return initialValue + currentValue;
+}, 0);
+
+// console.log([1,2,3].reduce(function(initialValue, currentValue){
+//   return initialValue + currentValue;
+// }, 0));
 
 sumArray([1,2,3]);
 sumArray([2,4,6]);
